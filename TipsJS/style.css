@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(218, 225, 231); 
+}
+
+main {
+    margin: 45px auto;
+    width: 225px;
+    height: 310px;
+    text-align: start;
+    border-radius: 5px;
+    background: rgb(241, 245, 248);
+    box-shadow: 0px 7px 5px grey;
+}
+
+.title {
+    background-color: rgb(57, 167, 157);
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+    padding: 7px 15px;
+    color: white;
+    font-weight: 400;
+}
+form{
+    margin: 15px 7px;
+}
+form label{
+    color: black;
+    margin: 0px 8px;
+}
+form input{
+    margin: 2px 7px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px grey;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+img{
+    width: 50px;
+}
+.submit{
+    background: rgb(57, 167, 157);
+    margin: 10px 7px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+h2{
+    margin: 14px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#costElem{
+    background-image: url(../images/dollar-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left;
+    background-position-x: 150px;
+}
+#percentageElem{
+    background-image: url(../images/percentage-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left;
+    background-position-x: 155px; 
+}

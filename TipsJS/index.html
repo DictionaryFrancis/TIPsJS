@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIPS</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="title">Tip Calculator</h1>
+        <form>
+            <label>INITIAL COST :</label>
+            <input type="text" id="costElem" autocomplete="off">
+            <br>
+            <label>TIP PERCENTAGE :</label>
+            <input type="text" id="percentageElem" autocomplete="off"></input>
+            <br>
+            <input class="submit" type="submit" value="Calculating...">
+        </form>
+        <h2>TIP AMOUNT: <span id="tip-amount"></span></h2>
+        <h2>TOTAL COST: <span id="total-cost"></span></h2>
+    </main>
+
+
+    <script>
+
+        const form = document.querySelector("form")
+        const tipAmount = document.getElementById("tip-amount")
+        const totalCost = document.getElementById("total-cost")
+
+        form.addEventListener("submit", (e) => {
+            const cost = Number(form.costElem.value)
+            const percentage = Number(form.percentageElem.value)
+
+            const sum = cost * (percentage/100)
+            const sum2 = cost + sum
+           
+            tipAmount.textContent = "$" + sum.toFixed(2)
+            totalCost.textContent = "$" + sum2.toFixed(2)
+
+            e.preventDefault()
+        })
+
+    </script>
+
+</body>
+
+</html>
