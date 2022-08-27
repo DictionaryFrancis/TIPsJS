@@ -1,0 +1,39 @@
+body{
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    background-color: hsl(185, 41%, 84%);
+}
+
+.user__side{
+    width: 45%;
+    text-align: start;
+    margin: 40px 40px;
+}
+.user__side label{
+    font-size: 14px;
+    margin: 5px 0;
+    display: inline-block;
+}
+.user__side input{
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+}
+#inBill,#inTip,#inNumberOfPeople{
+    background-color: hsl(190, 55%, 97%);
+}
+.numbers__part1,.numbers__part2{
+    display: inline-block;
+    margin: 10px 0;
+}
+#inTip{
+    width: 60px;
+}
+.numbers span{
+    display:inline-block;
+}
+
+
+.pc__side{
+    width: 45%;
+}

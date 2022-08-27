@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/header.css">
+   <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="TipsJS2nd.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>SPLI 
+            <span>TTER</span>
+        </h1>
+    </header>
+
+
+    <main>
+        <section class="user__side">
+            <form>
+                <!--Bill Section-->
+
+                <label for="Bill">Bill</label>
+                <br>
+                <input type="number" id="inBill">
+                <br>
+
+                <!--Tips Section-->
+
+                <label for="Buttons">Select Tip %</label>
+                <br>
+                <div class="numbers__part1">
+                <input type="button" value="5%">
+                <input type="button" value="10%">
+                <input type="button" value="15%">
+                </div>
+                <div class="numbers__part2">
+                <input type="button" value="25%">
+                <input type="button" value="50%">
+                <input type="number" id="inTip" placeholder="Custom">
+            </div>    
+                <!--Number of People Section-->
+
+                <br>
+                <label for="Number of People">Number of People</label>
+                <input type="number" id="inNumberOfPeople">
+                <br>
+                <p id="error"></p>
+
+            </form>
+        </section>
+        <section class="pc__side">
+            <!--Tips Amount Section-->
+            <div>
+                <h3>Tip Amount
+                    <span>/ person</span>
+                </h3>
+
+
+                <h4 id="outTipAmount"></h4>
+
+            </div>
+
+            <!--Total Value Section-->
+
+            <div>
+                <h3>Total
+                    <span>/ person</span>
+                </h3>
+
+                <h4 id="outTotal"></h4>
+
+                <button id="Reset">RESET</button>
+            </div>
+
+            
+        </section>
+
+
+        <script src="TipsJS2nd.js"></script>
+
+    </main>
+</body>
+
+</html>

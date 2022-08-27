@@ -1,0 +1,10 @@
+header{
+    letter-spacing: 14px;
+    font-size: 12px;
+    display: inline-block;
+    word-spacing: 1.25px;
+    color: hsl(186, 14%, 43%);
+}
+header span{
+    display: block;
+}
