@@ -1,0 +1,50 @@
+.user__side{
+    width: 45%;
+    text-align: start;
+    margin: 40px 40px;
+}
+
+.section-select-tip-title{
+    font-size: 14px;
+    margin: 31px 0 5px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.percentages-part1,.percentages-part2{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.percentages-part1 button, .percentages-part2 button{
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 103px;
+    height: 45px;
+    margin-right: 18px;
+}
+
+.percentages-part1 button:hover, .percentages-part2 button:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+#inTip{
+    width: 103px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    color: hsl(183, 100%, 15%);
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    background-color: hsl(190, 55%, 97%)
+}

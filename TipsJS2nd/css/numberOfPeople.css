@@ -1,0 +1,20 @@
+.number-people-section{
+    margin-top: 40px;
+}
+
+.number-people-section input{
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(190, 55%, 97%);
+    text-align: end;
+    font-family: 'Space Mono', monospace;
+    padding: 3px;
+    margin-left: -21px;
+    margin-top: 5px;
+    width: 340px;
+}
+.svg-people{
+    position: relative;
+    left: 15px;
+}

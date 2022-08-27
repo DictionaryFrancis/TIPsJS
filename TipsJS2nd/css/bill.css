@@ -1,0 +1,22 @@
+.section-bill input{
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(190, 55%, 97%);
+    text-align: end;
+    font-family: 'Space Mono', monospace;
+    padding: 2px;
+    margin-left: -21px;
+    width: 340px;
+}
+
+.svg-bill{
+    position: relative;
+    left: 15px;
+}
+
+.section-bill label{
+    font-size: 14px;
+    margin: 5px 0;
+    display: inline-block;
+}
