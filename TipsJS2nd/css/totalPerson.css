@@ -1,0 +1,19 @@
+.total-person-section{
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.total-person-section span{
+    display: block;
+    font-size: 12px;
+    margin-left: 5px;
+}
+#outTotal{
+    font-size: 40px;
+    margin: 10px 0;
+    color: hsl(172, 67%, 45%);
+}

@@ -9,4 +9,7 @@ body{
     background-color: hsl(183, 100%, 15%);
     margin: 40px 30px;
     border-radius: 15px;
+    text-align: start;
+    padding: 25px 30px;
 }
+

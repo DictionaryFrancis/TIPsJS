@@ -1,0 +1,19 @@
+.tip-amount-section{
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tip-amount-section span{
+    display: block;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+#outTipAmount{
+    font-size: 40px;
+    margin: 10px 0;
+    color: hsl(172, 67%, 45%);
+}
