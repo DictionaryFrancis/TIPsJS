@@ -43,8 +43,12 @@
     font-size: 18px;
     border: none;
     color: hsl(183, 100%, 15%);
-    text-align: center;
+    text-align: end;
     font-family: 'Space Mono', monospace;
     font-weight: bold;
-    background-color: hsl(190, 55%, 97%)
+    background-color: hsl(190, 55%, 97%);
+    cursor: pointer;
+}
+#inTip:hover{
+    border: 2px solid hsl(172, 67%, 45%);
 }

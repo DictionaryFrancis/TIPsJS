@@ -1,4 +1,4 @@
-#Reset{
+.reset{
     background-color: hsl(172, 67%, 45%);
     color: hsl(183, 100%, 15%);
     width: 335px;
@@ -9,4 +9,8 @@
     padding: 11px 0;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+.reset:hover{
+    background-color: hsl(185, 41%, 84%);
 }

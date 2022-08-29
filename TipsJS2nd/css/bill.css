@@ -8,6 +8,11 @@
     padding: 2px;
     margin-left: -21px;
     width: 340px;
+    cursor: pointer;
+}
+
+.section-bill input:hover{
+    border: 2px solid hsl(172, 67%, 45%);
 }
 
 .svg-bill{
